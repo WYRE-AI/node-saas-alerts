@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/WYRE-AI/node-saas-alerts/compare/v1.0.0...v1.0.1) (2026-08-25)
+
+
+### Bug Fixes
+
+* migrate to WYRE-AI org (npm scope, ghcr namespace, registry) ([#23](https://github.com/WYRE-AI/node-saas-alerts/issues/23)) ([3fcac7c](https://github.com/WYRE-AI/node-saas-alerts/commit/3fcac7c1c0777dd8e2724ecad9c0fdd68c003908))
+
 # 1.0.0 (2026-06-30)
 
 
