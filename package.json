@@ -1,5 +1,5 @@
 {
-  "name": "@wyre-technology/node-saas-alerts",
+  "name": "@wyre-ai/node-saas-alerts",
   "version": "1.0.0",
   "description": "Node.js client library for the Kaseya SaaS Alerts External Partner API",
   "type": "module",
@@ -42,12 +42,12 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wyre-technology/node-saas-alerts.git"
+    "url": "https://github.com/WYRE-AI/node-saas-alerts.git"
   },
   "bugs": {
-    "url": "https://github.com/wyre-technology/node-saas-alerts/issues"
+    "url": "https://github.com/WYRE-AI/node-saas-alerts/issues"
   },
-  "homepage": "https://github.com/wyre-technology/node-saas-alerts#readme",
+  "homepage": "https://github.com/WYRE-AI/node-saas-alerts#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^7.0.0",
     "@semantic-release/git": "^11.0.1",

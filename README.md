@@ -1,4 +1,4 @@
-# @wyre-technology/node-saas-alerts
+# @wyre-ai/node-saas-alerts
 
 Node.js client library for the [Kaseya SaaS Alerts](https://www.saasalerts.com/) External Partner API. Provides a type-safe, promise-based interface to query security events, manage customers, retrieve billing details, and more.
 
@@ -7,14 +7,14 @@ Node.js client library for the [Kaseya SaaS Alerts](https://www.saasalerts.com/)
 This package is published to GitHub Packages. Add the following to your project's `.npmrc`:
 
 ```
-@wyre-technology:registry=https://npm.pkg.github.com
+@wyre-ai:registry=https://npm.pkg.github.com
 //npm.pkg.github.com/:_authToken=YOUR_GITHUB_TOKEN
 ```
 
 Then install:
 
 ```bash
-npm install @wyre-technology/node-saas-alerts
+npm install @wyre-ai/node-saas-alerts
 ```
 
 ## Authentication
@@ -24,7 +24,7 @@ SaaS Alerts uses an API key passed as the `api_key` request header. Generate you
 ## Quick start
 
 ```ts
-import { SaasAlertsClient } from '@wyre-technology/node-saas-alerts';
+import { SaasAlertsClient } from '@wyre-ai/node-saas-alerts';
 
 const client = new SaasAlertsClient({ apiKey: process.env.SAAS_ALERTS_API_KEY! });
 
@@ -67,7 +67,7 @@ import {
   NotFoundError,
   RateLimitError,
   ServerError,
-} from '@wyre-technology/node-saas-alerts';
+} from '@wyre-ai/node-saas-alerts';
 
 try {
   await client.events.query({ customerId: 'cust-123' });
